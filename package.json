@@ -1,0 +1,35 @@
+{
+  "name": "command-queue",
+  "version": "1.0.0",
+  "description": "simple typescript command queue",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "mocha": "mocha",
+    "test": "tsc && mocha dist/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dregenor/command-queue.git"
+  },
+  "keywords": [
+    "command",
+    "queue",
+    "process",
+    "typescript"
+  ],
+  "author": "dregenor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dregenor/command-queue/issues"
+  },
+  "homepage": "https://github.com/dregenor/command-queue#readme",
+  "devDependencies": {
+    "@types/node": "^7.0.18",
+    "@types/mocha": "^2.2.33",
+    "@types/chai": "^3.4.34",
+    "typescript": "^2.3.2",
+    "chai": "^3.5.0",
+    "mocha": "^3.4.2"
+  }
+}
